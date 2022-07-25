@@ -17,6 +17,7 @@ specifiers:
   sirv-cli: ^1.0.0
   svelte: ^3.0.0
   svelte-check: ^1.0.0
+  svelte-infinite-scroll: 2.0.1
   svelte-preprocess: ^4.0.0
   svelte-spa-router: 3.2.0
   tailwindcss: ^2.0.2
@@ -26,6 +27,7 @@ specifiers:
 dependencies:
   axios: 0.27.2
   sirv-cli: 1.0.14
+  svelte-infinite-scroll: 2.0.1
   svelte-spa-router: 3.2.0
 
 devDependencies:
@@ -1385,6 +1387,10 @@ packages:
       - stylus
       - sugarss
     dev: true
+
+  /svelte-infinite-scroll/2.0.1:
+    resolution: {integrity: sha512-goTHCfOHRDCs8C5MeSuIc6LlAQ8zVQ+M4Y3LyvrDjx5rqSSxSrdCuQwIyWYNcO6j6/mnqRro3QB64ClBzfn+Wg==}
+    dev: false
 
   /svelte-preprocess/4.10.7_znolwsuipafkk3uoi3c2cikbda:
     resolution: {integrity: sha512-sNPBnqYD6FnmdBrUmBCaqS00RyCsCpj2BG58A1JBswNF7b0OKviwxqVrOL/CKyJrLSClrSeqQv5BXNg2RUbPOw==}
