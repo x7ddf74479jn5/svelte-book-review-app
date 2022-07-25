@@ -17,12 +17,14 @@ specifiers:
   svelte: ^3.0.0
   svelte-check: ^1.0.0
   svelte-preprocess: ^4.0.0
+  svelte-spa-router: 3.2.0
   tailwindcss: ^2.0.2
   tslib: ^2.0.0
   typescript: ^3.9.3
 
 dependencies:
   sirv-cli: 1.0.14
+  svelte-spa-router: 3.2.0
 
 devDependencies:
   '@rollup/plugin-commonjs': 16.0.0_rollup@2.77.0
@@ -1060,6 +1062,11 @@ packages:
       postcss-value-parser: 3.3.1
     dev: true
 
+  /regexparam/2.0.0:
+    resolution: {integrity: sha512-gJKwd2MVPWHAIFLsaYDZfyKzHNS4o7E/v8YmNf44vmeV2e4YfVoDToTOKTvE7ab68cRJ++kLuEXJBaEeJVt5ow==}
+    engines: {node: '>=8'}
+    dev: false
+
   /require-relative/0.8.7:
     resolution: {integrity: sha512-AKGr4qvHiryxRb19m3PsLRGuKVAbJLUD7E6eOaHkfKhwc+vSgVOCY5xNvm9EkolBKTOf0GrQAZKLimOCz81Khg==}
     dev: true
@@ -1373,6 +1380,12 @@ packages:
       svelte: 3.49.0
       typescript: 3.9.10
     dev: true
+
+  /svelte-spa-router/3.2.0:
+    resolution: {integrity: sha512-igemo5Vs82TGBBw+DjWt6qKameXYzNs6aDXcTxou5XbEvOjiRcAM6MLkdVRCatn6u8r42dE99bt/br7T4qe/AQ==}
+    dependencies:
+      regexparam: 2.0.0
+    dev: false
 
   /svelte/3.49.0:
     resolution: {integrity: sha512-+lmjic1pApJWDfPCpUUTc1m8azDqYCG1JN9YEngrx/hUyIcFJo6VZhj0A1Ai0wqoHcEIuQy+e9tk+4uDgdtsFA==}
